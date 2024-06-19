@@ -1,0 +1,111 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	background-color: #333;
+	font-size: 20px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 2px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+h1 {
+	font-size: 70px;
+	color: #00698f;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 20px;
+	display: block;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+form {
+	width: 300px;
+	margin: 40px auto;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+	width: 95%;
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 3px solid #ccc;
+}
+
+input[type="submit"], button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+	background-color: #3e8e41;
+}
+
+#tasks {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#calculator {
+	width: 300px;
+	margin: 40px auto;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
